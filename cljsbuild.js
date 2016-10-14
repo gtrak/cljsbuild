@@ -740,6 +740,9 @@ function runCommand (args) {
     } else if (args.nrepl) {
         info('starting nrepl server');
         cljs.nrepl();
+    } else if (args.watch) {
+        info('starting file-watcher');
+        cljs.nrepl();
     } else if (args.init) {
         info('initializing cljs dependencies in package.json');
         config.initConfig({
