@@ -773,6 +773,7 @@ usage:
     cljsbuild [options] install
     cljsbuild [options] repl
     cljsbuild [options] nrepl
+    cljsbuild [options] watch
 
 options:
     -h, --help             show help
