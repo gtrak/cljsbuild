@@ -742,7 +742,7 @@ function runCommand (args) {
         cljs.nrepl();
     } else if (args.watch) {
         info('starting file-watcher');
-        cljs.nrepl();
+        cljs.watch();
     } else if (args.init) {
         info('initializing cljs dependencies in package.json');
         config.initConfig({
