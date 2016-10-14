@@ -619,7 +619,6 @@ class ClojureScript {
 
         // cljs.build.api
         if (params.buildMethod) {
-            assert(['build', 'watch'].indexOf(params.buildMethod) === 0);
 
             const buildOpts = {
                 main: `'${this._config.getConfig('main')}`,
